@@ -19,7 +19,7 @@ namespace OmniBookReact.Controllers
 		[HttpGet("{id}")]
 		public string Get(int id)
 		{
-			return "value";
+			return "KA-01-AE57:9384758374,KA-01-AE57:9388765474,KA-01-AE57:9334545374";
 		}
 
 		// POST api/<QueryHandlerController>
