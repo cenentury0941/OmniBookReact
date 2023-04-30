@@ -3,12 +3,16 @@ import { Route, Routes } from 'react-router-dom';
 import AppRoutes from './AppRoutes';
 import { Layout } from './components/Layout';
 import './custom.css';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+import CssBaseline from '@mui/material/CssBaseline';
+import './components/Main.css';
+
 
 export default class App extends Component {
   static displayName = App.name;
 
   render() {
-    return (
+      return (
       <Layout>
         <Routes>
           {AppRoutes.map((route, index) => {
@@ -16,7 +20,7 @@ export default class App extends Component {
             return <Route key={index} {...rest} element={element} />;
           })}
         </Routes>
-      </Layout>
+              </Layout>
     );
   }
 }

@@ -1,0 +1,47 @@
+﻿
+html, body, #app, #app > div {
+	height: 100%;
+	background-color: #252525;
+	background-image: url("./res/auto-bg.jpg");
+	color: white;
+	background-size:cover
+}
+
+	.scrollContainer {
+		height: 50%;
+	}
+
+Header {
+	background-color: #000000;
+	color:aliceblue
+}
+
+.fixed {
+	position: fixed;
+	top: 0;
+	z-index: 20;
+	width:100%
+}
+
+.MuiOutlinedInput-notchedOutline {
+	border-color: #454545 !important;
+}
+
+.MuiFilledInput-root {
+	border-bottom: 1px solid #454545 !important;
+}
+
+.MuiInput-root {
+	border-bottom: 1px solid #454545 !important;
+}
+
+
+#map {
+	height: 360px;
+}
+
+.leaflet-container {
+	width: 640px;
+	height: 350px;
+	z-index:0;
+}

@@ -31,6 +31,8 @@ namespace OmniBookReact
 
 			app.MapFallbackToFile("index.html");
 
+			new DBHandler(app.Configuration);
+
 			app.Run();
 		}
 	}
